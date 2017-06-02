@@ -1,0 +1,35 @@
+
+
+@charset "utf-8";
+/* CSS Document */
+
+body{
+        width:100%;
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+    color:gray;
+    font: georgia;
+    width:100%;
+    text-align: center;
+}
+
+.Collage{
+
+    /* define how much padding you want in between your images */
+    padding:10px;
+
+    }
+
+.Collage img{
+
+    /* ensures padding at the bottom of the image is correct */
+    vertical-align:bottom;
+
+    /* hide the images until the plugin has run. the plugin will reveal the images*/
+    opacity:0.8;
+
+    }
+        
